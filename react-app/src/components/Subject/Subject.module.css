@@ -1,0 +1,42 @@
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #eee;
+}
+
+.createNoteCard {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(227, 201, 240);
+    color: rgb(56, 54, 54);
+    margin-top: 2em;
+    padding: 1.5em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonFormular {
+    padding: 0.5em;
+    border-radius: 10px;
+    border: none;
+}
+
+.buttonFormular:hover {
+    background-color: rgb(246, 202, 73);
+    cursor: pointer;
+}
+
+.cardError {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 2px solid rgb(239, 114, 114);
+}

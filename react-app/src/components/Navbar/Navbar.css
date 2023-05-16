@@ -1,0 +1,29 @@
+
+.navbar-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0.4em 1.2em;
+    background-color:rgb(232, 198, 252)
+}
+
+.speeddial-circle-demo .p-speeddial-circle {
+    top: calc(50% - 2rem);
+    left: calc(50% - 2rem);
+}
+
+.speeddial-circle-demo .p-speeddial-quarter-circle.p-speeddial-direction-up-right {
+    left: 0;
+    bottom: 0;
+}
+
+.navbar-list{
+    list-style: none;
+    margin-top:2em;
+}
+
+.navbar-list li{
+    margin: 1em 0;
+    font-weight:500;
+    cursor: pointer;
+}
